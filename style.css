@@ -1,0 +1,55 @@
+body{
+    flex-wrap: wrap;
+  }
+  #main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  #list{
+    background-color: gainsboro;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 0.3rem;
+  }
+  #list h5{
+    font-weight: lighter;
+  }
+  
+  #inp{
+    border-color: white;
+    border: none;
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  li{
+    list-style: none;
+    margin-right: 3px;
+  }
+  #to-do-list li{
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    font-size: 1.3rem;
+    background-color: rgb(198, 186, 170);
+    justify-content: space-between;
+    position: relative;
+  }
+  #btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: auto;
+  }
+  
+  
+  #del, #edit{
+    margin-left: 0.5rem;
+  }
+  .txt{
+    margin-top: 1rem;
+  }
+  #done{
+    text-decoration: line-through;
+  }
